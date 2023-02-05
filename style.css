@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&family=Quicksand&family=Raleway&family=Roboto:ital,wght@0,500;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+}
+/* header styling */
+header .hero-container {
+    display: flex;
+    text-align: center;
+}
+header .hero-text {
+    margin: 2rem 0 0 0;
+    padding: 2rem;
+}
+header h2 {
+    padding: 2rem;
+    color: rgb(24, 100, 255);
+    font-size: 30px;
+}
+header .hero-container img {
+    margin: 6rem 3rem 0 0;
+}
+header h1 {
+    color: rgb(24, 100, 255);
+    padding: 0 0 2.3rem 0;
+}
+header .hero-container h1 {
+    font-size: 60px;
+}
+header .hero-container .hero-span {
+    color: rgb(247, 154, 151);
+}
+
+header .hero-container .first-paragraph {
+    font-size: 17px;
+    line-height: 1.5rem;
+    padding: 0 0 2rem 0;
+    color: rgb(24, 100, 255);
+    font-weight: 200;
+}
+header .hero-paragraph-span-one {
+    opacity: 60%;
+    color: rgb(24, 100, 255);
+    line-height: 2rem;
+    font-size: 15px;
+}
+header .hero-paragraph-span-two {
+    color: rgb(24, 100, 255);
+    font-weight: bold;
+}
+header input {
+    padding: 0.7rem 1.2rem;
+    border-color: rgb(24, 100, 255);
+    margin: 0 0.6rem 0 0;
+    border-radius: 5px;
+}
+header input[type=text] {
+    color: rgb(24, 100, 255);
+}
+button {
+    padding: 0.82rem 1.5rem;
+    background-color: rgb(24, 100, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 2rem 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+button:hover {
+    background-color: rgb(247, 154, 151);
+    transition: all 0.4s;
+}
+.hero-little-text {
+    font-size: 12px;
+    opacity: 60%;
+    color: rgb(24, 100, 255);
+}
+
